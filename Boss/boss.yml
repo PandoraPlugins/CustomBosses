@@ -1,0 +1,45 @@
+version: 1
+Bosses:
+  Eggs:
+    Name: '&7[&5%preset%&7]'
+    lore:
+    - '&cA unique spawn egg that allows the user to'
+    - '&cspawn a %preset%!'
+    - '&cabilities: &6%ability%'
+  Presets:
+    ZombieMutant:
+      Name: '&5[&5MUTANT&5] &c(&4%health%&c)'
+      Entity: ZOMBIE
+      Abbilities:
+      - beserk
+      - speed
+      - ironskin
+      - lifesteal
+      Items:
+        hand:
+          item: STICK
+          enchants:
+          - DAMAGE_ALL: 100
+        head:
+          item: PUMPKIN
+          enchants:
+          - PROTECTION_ENVIRONMENTAL: 1
+        chest:
+          item: AIR
+          enchants: []
+        legs:
+          item: AIR
+          enchants: []
+        boots:
+          item: AIR
+          enchants: []
+      Drops:
+       - STICK: [1,5]
+      XP: 
+       MinXp: 1000
+       MaxXp: 5000
+      Sounds:
+       Spawn: EXPLODE
+       Attack: None
+       Death: EXPLODE
+       Hurt: EXPLODE

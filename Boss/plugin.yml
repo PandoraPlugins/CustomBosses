@@ -1,0 +1,7 @@
+name: Boss
+version: 1.0
+main: com.boss.main.Boss
+author: Unfairbody96
+commands:
+  boss:
+    description: base main command

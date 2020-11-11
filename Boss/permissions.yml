@@ -1,0 +1,6 @@
+#version ( DONT CHANGE ) 
+version: 1
+
+Permissions:
+ default: "bukkit.command.help"
+ admin: "base.admin"
