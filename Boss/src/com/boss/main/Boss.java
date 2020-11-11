@@ -21,8 +21,8 @@ public class Boss extends JavaPlugin implements Listener{
 		ParentFolder = getDataFolder();
 	    instance = this;
 		
-	    ConfigManager.setup(this);
-	    ConfigManager.save(this);
+	    //ConfigManager.setup(this);
+	    //ConfigManager.save(this);
 	    
 	    BossFactory.register();
 	    
