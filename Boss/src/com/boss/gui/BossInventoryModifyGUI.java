@@ -104,7 +104,7 @@ public class BossInventoryModifyGUI extends BossGUI{
 					this.meta.setLeggings(inv.getItem(22));
 					this.meta.setBoots(inv.getItem(31));
 				}else {
-					MessageUtils.sendMessage(player, GenericMessages.PREFIX + " &cAn error has accured!");
+					MessageUtils.sendMessage(player, GenericMessages.PREFIX + " &cAn error has accured! (Code 51)");
 				}
 				
 				this.close();
